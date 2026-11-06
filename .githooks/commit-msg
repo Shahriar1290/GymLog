@@ -1,0 +1,48 @@
+#!/usr/bin/env bash
+# commit-msg hook: checks a commit message against commit.md.
+# Usage: commit-msg <file-with-message>   (Git passes the file automatically)
+
+msg_file="$1"
+types="feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert"
+scopes="auth|workout|exercise|library|records|history|timer|reminder|settings|firestore|ui|models|deps|repo|readme|viva"
+
+# Ignore the comment lines that Git adds to the message.
+msg=$(grep -v '^#' "$msg_file")
+header=$(printf '%s\n' "$msg" | sed -n '1p')
+second=$(printf '%s\n' "$msg" | sed -n '2p')
+
+fail() {
+  echo "✖ Commit message rejected: $1" >&2
+  echo "  Header: $header" >&2
+  echo "  Format: <type>[optional scope][!]: <description>   (see commit.md)" >&2
+  exit 1
+}
+
+# Automatic messages are skipped.
+case "$header" in
+  Merge\ *|fixup!\ *|squash!\ *) exit 0 ;;
+esac
+
+[ -z "$header" ] && fail "the message is empty."
+
+pattern="^(${types})(\((${scopes})\))?(!)?: [a-z]"
+if ! [[ $header =~ $pattern ]]; then
+  type=$(printf '%s' "$header" | sed -E 's/^([A-Za-z]+).*/\1/')
+  if ! [[ $type =~ ^(${types})$ ]]; then
+    fail "unknown or missing type '$type'. Use one of: ${types//|/, }."
+  fi
+  rest=${header#"$type"}
+  if [[ $rest == \(* ]]; then
+    scope=${rest#\(}; scope=${scope%%)*}
+    if ! [[ $scope =~ ^(${scopes})$ ]]; then
+      fail "unknown scope '$scope'. Use one of: ${scopes//|/, }."
+    fi
+  fi
+  fail "expected ': ' (colon and one space) followed by a lowercase description."
+fi
+
+[ ${#header} -gt 72 ] && fail "the header is ${#header} characters; the limit is 72."
+[[ $header == *. ]] && fail "the description must not end with a period."
+[ -n "$second" ] && fail "leave one blank line between the header and the body."
+
+exit 0

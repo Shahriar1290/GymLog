@@ -1,0 +1,11 @@
+# <type>[optional scope][!]: <description>      (header: 72 characters max)
+#
+# [optional body: what and why, wrapped at about 72 characters]
+#
+# [optional footer(s), e.g. Refs: #12 or BREAKING CHANGE: ...]
+#
+# Types:  feat fix docs style refactor perf test build ci chore revert
+# Scopes: auth workout exercise library records history timer reminder
+#         settings firestore ui models deps repo readme viva
+# Rules:  lowercase type, imperative description, no final period.
+#         See commit.md
