@@ -1,0 +1,219 @@
+[
+  {
+    "id": "bench-press",
+    "name": "Bench Press",
+    "muscleGroup": "Chest",
+    "description": "Lie on a flat bench and press a barbell from chest level until your arms are straight.",
+    "tips": "Keep your feet flat, shoulder blades pinched together, and lower the bar to mid-chest."
+  },
+  {
+    "id": "incline-dumbbell-press",
+    "name": "Incline Dumbbell Press",
+    "muscleGroup": "Chest",
+    "description": "Press dumbbells upward on a bench set at about 30 degrees to target the upper chest.",
+    "tips": "Do not flare your elbows past 45 degrees; control the weight on the way down."
+  },
+  {
+    "id": "push-up",
+    "name": "Push-Up",
+    "muscleGroup": "Chest",
+    "description": "A body-weight press from the floor that works chest, shoulders and triceps.",
+    "tips": "Keep your body in one straight line from head to heels."
+  },
+  {
+    "id": "chest-fly",
+    "name": "Dumbbell Chest Fly",
+    "muscleGroup": "Chest",
+    "description": "Open your arms wide with dumbbells on a flat bench, then bring them together over your chest.",
+    "tips": "Keep a slight bend in the elbows and use lighter weight than for presses."
+  },
+  {
+    "id": "cable-crossover",
+    "name": "Cable Crossover",
+    "muscleGroup": "Chest",
+    "description": "Pull two high cable handles down and together in front of your body.",
+    "tips": "Squeeze your chest at the bottom and avoid swinging your torso."
+  },
+  {
+    "id": "deadlift",
+    "name": "Deadlift",
+    "muscleGroup": "Back",
+    "description": "Lift a barbell from the floor to hip height by driving through your legs and extending the hips.",
+    "tips": "Keep the bar close to your shins and your back flat throughout."
+  },
+  {
+    "id": "pull-up",
+    "name": "Pull-Up",
+    "muscleGroup": "Back",
+    "description": "Hang from a bar and pull your chin above it using your back and arms.",
+    "tips": "Start from a full hang and avoid kicking or swinging."
+  },
+  {
+    "id": "barbell-row",
+    "name": "Barbell Row",
+    "muscleGroup": "Back",
+    "description": "Hinge forward and row a barbell toward your lower ribs.",
+    "tips": "Keep your back flat and pull the elbows back, not just the hands."
+  },
+  {
+    "id": "lat-pulldown",
+    "name": "Lat Pulldown",
+    "muscleGroup": "Back",
+    "description": "Pull a wide bar down to your upper chest while seated at a cable machine.",
+    "tips": "Lean back slightly and think about pulling with the elbows."
+  },
+  {
+    "id": "seated-cable-row",
+    "name": "Seated Cable Row",
+    "muscleGroup": "Back",
+    "description": "Pull a cable handle toward your stomach while sitting upright.",
+    "tips": "Do not rock back; pause briefly when your shoulder blades squeeze together."
+  },
+  {
+    "id": "squat",
+    "name": "Barbell Squat",
+    "muscleGroup": "Legs",
+    "description": "Lower your hips with a barbell on your upper back, then stand up again.",
+    "tips": "Keep your knees in line with your toes and your chest up."
+  },
+  {
+    "id": "leg-press",
+    "name": "Leg Press",
+    "muscleGroup": "Legs",
+    "description": "Push a weighted platform away with your feet while seated on a machine.",
+    "tips": "Never lock your knees fully at the top."
+  },
+  {
+    "id": "lunges",
+    "name": "Walking Lunges",
+    "muscleGroup": "Legs",
+    "description": "Step forward and lower until both knees are bent about 90 degrees, then step through.",
+    "tips": "Take a long enough step so your front knee stays above your ankle."
+  },
+  {
+    "id": "romanian-deadlift",
+    "name": "Romanian Deadlift",
+    "muscleGroup": "Legs",
+    "description": "Hinge at the hips with slightly bent knees to lower a barbell along your legs.",
+    "tips": "Feel the stretch in your hamstrings and keep your back neutral."
+  },
+  {
+    "id": "leg-curl",
+    "name": "Leg Curl",
+    "muscleGroup": "Legs",
+    "description": "Curl a padded lever toward your glutes to work the hamstrings.",
+    "tips": "Move slowly and avoid lifting your hips off the pad."
+  },
+  {
+    "id": "calf-raise",
+    "name": "Standing Calf Raise",
+    "muscleGroup": "Legs",
+    "description": "Rise onto your toes with weight on your shoulders or in your hands.",
+    "tips": "Pause at the top and lower fully for a deep stretch."
+  },
+  {
+    "id": "overhead-press",
+    "name": "Overhead Press",
+    "muscleGroup": "Shoulders",
+    "description": "Press a barbell from your shoulders to above your head while standing.",
+    "tips": "Tighten your core and glutes so you do not lean back."
+  },
+  {
+    "id": "lateral-raise",
+    "name": "Lateral Raise",
+    "muscleGroup": "Shoulders",
+    "description": "Raise dumbbells out to your sides until your arms are parallel to the floor.",
+    "tips": "Lead with the elbows and use a light weight."
+  },
+  {
+    "id": "front-raise",
+    "name": "Front Raise",
+    "muscleGroup": "Shoulders",
+    "description": "Lift dumbbells straight in front of you to shoulder height.",
+    "tips": "Avoid swinging; stop when your arms are level with your shoulders."
+  },
+  {
+    "id": "face-pull",
+    "name": "Face Pull",
+    "muscleGroup": "Shoulders",
+    "description": "Pull a rope attachment toward your face with elbows high.",
+    "tips": "Great for rear delts and posture; keep the weight moderate."
+  },
+  {
+    "id": "arnold-press",
+    "name": "Arnold Press",
+    "muscleGroup": "Shoulders",
+    "description": "A dumbbell press that rotates your palms from facing you to facing forward.",
+    "tips": "Move smoothly and keep your ribs down."
+  },
+  {
+    "id": "bicep-curl",
+    "name": "Barbell Bicep Curl",
+    "muscleGroup": "Arms",
+    "description": "Curl a barbell from thigh level up to your shoulders.",
+    "tips": "Keep your elbows by your sides and do not swing your back."
+  },
+  {
+    "id": "hammer-curl",
+    "name": "Hammer Curl",
+    "muscleGroup": "Arms",
+    "description": "Curl dumbbells with your palms facing each other.",
+    "tips": "Works the brachialis and forearms; keep your wrists straight."
+  },
+  {
+    "id": "tricep-pushdown",
+    "name": "Tricep Pushdown",
+    "muscleGroup": "Arms",
+    "description": "Push a cable bar or rope down until your arms are straight.",
+    "tips": "Pin your elbows to your sides and squeeze at the bottom."
+  },
+  {
+    "id": "skull-crusher",
+    "name": "Skull Crusher",
+    "muscleGroup": "Arms",
+    "description": "Lie on a bench and lower a bar toward your forehead by bending the elbows, then extend.",
+    "tips": "Keep upper arms still and use a spotter for heavy sets."
+  },
+  {
+    "id": "preacher-curl",
+    "name": "Preacher Curl",
+    "muscleGroup": "Arms",
+    "description": "Curl a weight while your upper arms rest on an angled pad.",
+    "tips": "Lower slowly and do not fully lock out at the bottom."
+  },
+  {
+    "id": "plank",
+    "name": "Plank",
+    "muscleGroup": "Core",
+    "description": "Hold a straight body position on your forearms and toes.",
+    "tips": "Squeeze your glutes and do not let your hips sag."
+  },
+  {
+    "id": "crunch",
+    "name": "Crunch",
+    "muscleGroup": "Core",
+    "description": "Lie on your back and curl your shoulders toward your hips.",
+    "tips": "Exhale as you curl up and keep your neck relaxed."
+  },
+  {
+    "id": "russian-twist",
+    "name": "Russian Twist",
+    "muscleGroup": "Core",
+    "description": "Sit leaning back and rotate your torso side to side.",
+    "tips": "Lift your feet for an extra challenge and twist from the ribs."
+  },
+  {
+    "id": "hanging-leg-raise",
+    "name": "Hanging Leg Raise",
+    "muscleGroup": "Core",
+    "description": "Hang from a bar and lift your legs until they are parallel to the floor.",
+    "tips": "Avoid swinging and curl your pelvis up at the top."
+  },
+  {
+    "id": "ab-wheel-rollout",
+    "name": "Ab Wheel Rollout",
+    "muscleGroup": "Core",
+    "description": "Roll a wheel forward from your knees and pull back using your abs.",
+    "tips": "Keep your lower back from arching; only roll as far as you can control."
+  }
+]
